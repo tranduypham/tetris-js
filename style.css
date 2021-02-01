@@ -1,0 +1,32 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+.hidden{
+    display: none;
+}
+.score, div{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace, sans-serif;
+}
+ul{
+    list-style: none;
+}
+button{
+    padding: 10px;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+}

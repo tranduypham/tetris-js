@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<!-- https://www.youtube.com/watch?v=HEsAr2Yt2do -->
+<body>
+    <div class="menu">
+        <form action="">
+            <label for="Level">Mời chọn level</label>
+            <ul>
+                <li>
+                    <input type="radio" value="1" name="Level" id="op1"> Easy
+                </li>
+                <li>
+                    <input type="radio" value="2" name="Level" id="op2"> Medium
+                </li>
+            </ul>
+            <a class="button" href="#"> Play </a>
+        </form>
+    </div>
+    
+    <!-- <div class="play">hello</div> -->
+    <div class="main hidden" id="play">
+        <canvas id="tetris" width="200" height="400"></canvas>
+        <div>
+            Score : <span class="score"></span>
+        </div>
+    </div>
+    <script src="tetrominoes.js"></script>
+    <script src="tetris.js"></script>
+
+</body>
+
+</html>
