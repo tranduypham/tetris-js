@@ -283,6 +283,7 @@ function EasyMode() {
 function startGame() {
     p.draw();
     drop();
+    console.log(LEVEL);
     if (LEVEL == 500) {
         MediumMode();
     }
@@ -306,10 +307,10 @@ btn.addEventListener('click', function (e) {
     } else {
         level = 2;
     }
-    if (level == 2) {
+    if (level == 1) {
         LEVEL = 1000;
     }
-    if (level == 1) {
+    if (level == 2) {
         LEVEL = 500;
         // levelOfGame = MediumMode();
     }
